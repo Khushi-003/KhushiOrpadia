@@ -1,0 +1,217 @@
+* {
+    font-family: 'Audiowide', cursive;
+    background-color: black;
+    /* color: #06FF00; */
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+}
+
+.dist p {
+    color: #06FF00;
+}
+
+.dist p:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    color: #FF0000;
+}
+
+.portf {
+    color: #10EAF0;
+}
+
+.portf:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.dob {
+    color: #FF0000;
+}
+
+.nav {
+    display: flex;
+    /* margin: 1rem; */
+}
+
+.nav div {
+    padding: 2rem;
+    font-size: 2rem;
+}
+
+.social {
+    float: right;
+    padding: 1rem;
+    position: fixed;
+}
+
+div.social p {
+    color: pink;
+    border-radius: 50%;
+    text-align: justify;
+    font-size: 2rem;
+}
+
+div.social p:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    color: #10EAF0;
+}
+
+.name {
+    font-size: 5rem;
+    text-align: center;
+    color: #06FF00;
+}
+
+.name:hover {
+    transform: skew(-20deg)
+}
+
+.about {
+    margin-left: 5%;
+    color: #06FF00;
+    font-size: 2rem;
+}
+
+.work {
+    font-size: 3rem;
+    text-align: right;
+}
+
+.work p {
+    color: #fe019a;
+    margin-right: 5%;
+}
+
+.work p:hover {
+    color: white;
+}
+
+.proj {
+    display: flex;
+    margin-left: 5%;
+}
+
+.proj div {
+    padding: 4rem;
+    /* border: 5px solid greenyellow; */
+}
+
+.cont {
+    font-size: 3rem;
+    text-align: left;
+}
+
+.cont p {
+    color: #FFF323;
+    margin-left: 5%;
+}
+
+.cont p:hover {
+    color: white;
+}
+
+.one b {
+    color: #F8EDED;
+    font-size: 1.3rem;
+}
+
+.two b {
+    color: #F8EDED;
+    font-size: 1.3rem;
+}
+
+.three b {
+    color: #F8EDED;
+    font-size: 1.3rem;
+}
+
+.one p {
+    color: #06FF00;
+    font-size: 1.5rem;
+}
+
+.two p {
+    color: #06FF00;
+    font-size: 1.5rem;
+}
+
+.three p {
+    color: #06FF00;
+    font-size: 1.5rem;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #06FF00;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: white;
+    color: black;
+}
+
+.form {
+    height: 30%;
+    width: 60%;
+    margin-left: 10%;
+    margin-bottom: 2%;
+    color: #06FF00;
+}
+
+input {
+    font-size: 2rem;
+    color: #06FF00;
+}
+
+select {
+    color: #06FF00;
+    font-size: 2rem;
+}
+
+textarea {
+    color: #06FF00;
+    font-size: 2rem;
+}
+
+option {
+    color: #06FF00;
+    font-size: 2rem;
+}
+
+label {
+    font-size: 1.5rem;
+}
+
+.foot {
+    text-align: center;
+    color: #06FF00;
+}
+
+.foot p {
+    font-size: 2rem;
+}
