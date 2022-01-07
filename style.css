@@ -71,6 +71,7 @@ div.social p:hover {
 }
 
 .name:hover {
+    margin-right: 20%;
     transform: skew(-20deg)
 }
 
